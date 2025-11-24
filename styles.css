@@ -1,8 +1,84 @@
 body {
-  background-color: #1a1a1a;
-  color: white;
+  background-color: #080501;
+  color: rgb(255, 240, 225);
+  max-width: 702px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
-a {
-  color: white;
+h1 {
+  font-size: 100px;
+  margin-bottom: 0px;
+  margin-top: 30px;
+  text-decoration: underline;
+}
+h2 {
+  color: rgb(213, 96, 0);
+  margin-bottom: 10px;
+}
+.Intro {
+  line-height: 38px;
+  font-size: 24px;
+  margin-top: 10px;
+}
+.Réponse-title {
+  text-decoration: underline;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: rgb(213, 96, 0);
+}
+.Réponse {
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+p {
+  line-height: 38px;
+  font-size: 24px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.retour {
+  color: rgb(213, 96, 0);
+}
+
+.retour:hover {
+  color: rgb(255, 240, 225);
+}
+.btn2 {
+  color: #ffc105;
+  font-size: 30px;
+  transition: all 0.3s ease;
+}
+.btn2:hover {
+  color: darkorange;
+  font-size: 35px;
+}
+.button {
+  background-color: rgb(213, 96, 0);
+  border: 5px solid rgb(154, 69, 0);
+  padding: 15px;
+  color: rgb(255, 240, 225);
+  text-decoration: none;
+  font-size: 30px;
+  margin-bottom: 30px;
+  display: inline-block;
+  width: 300px;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: rgb(154, 69, 0);
+  border: 5px solid rgb(84, 38, 0);
+  padding: 20px;
+}
+.Conclusion {
+  border: 2px solid rgb(213, 96, 0);
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 200;
+  margin-bottom: 50px;
 }
